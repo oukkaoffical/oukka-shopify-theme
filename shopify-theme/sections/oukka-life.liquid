@@ -1,0 +1,1 @@
+<section style="padding:5vw"><h1>LIFE</h1><div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px">{% assign imgs='train.png,office.png,library.png,street.png' | split: ',' %}{% for img in imgs %}<img src="{{ img | asset_url }}" alt="OUKKA everyday life" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover">{% endfor %}</div></section>

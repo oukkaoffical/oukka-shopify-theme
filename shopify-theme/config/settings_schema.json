@@ -1,0 +1,6 @@
+[
+  {"name":"OUKKA theme settings","settings":[
+    {"type":"image_picker","id":"logo","label":"Logo"},
+    {"type":"text","id":"instagram_url","label":"Instagram URL","default":"https://www.instagram.com/oukka.official/"}
+  ]}
+]
